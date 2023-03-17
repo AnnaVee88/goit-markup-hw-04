@@ -359,7 +359,7 @@ img{
 }
 
 .customers-link:hover,
-.customers-link:focus .customers-soc-icon{
+.customers-link:focus{
     color: var(--Pressed-state);
     border-color:1px solid var(--Pressed-state);
 }
@@ -503,16 +503,15 @@ img{
     padding-top: 32px;
     padding-left: 16px;
     padding-bottom: 32px;
-    
     border-left: 1px solid var(--accent);
     border-bottom: 1px solid var(--accent);
     border-right: 1px solid var(--accent); 
 }
-
+.galery-link{
+display: block;
+}
 .galery-link:hover,
 .galery-link:focus{
-    color:var(--Pressed-state);
-    display: block;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .galery-list{
